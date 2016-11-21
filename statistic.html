@@ -1,0 +1,21 @@
+<html>
+    <head>
+       <meta charset="utf-8">
+       <title>Статистика</title>
+    </head>
+<body style="color:black; background-color:#E6E6FA">
+<div align="center"><FONT COLOR=600040><code><h1> Статистика данных </h1>
+{% for username in n %}
+    <table border="1">
+<tr>
+<th>{{ username }}</th>
+</tr>
+</table>	
+{% endfor %}
+
+</FONT>
+</br>
+<input type="button" value="Вернуться в главное меню" onClick='location.href="http://127.0.0.1:5000/"'>
+
+ </body>
+ </html>
