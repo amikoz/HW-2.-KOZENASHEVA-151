@@ -1,0 +1,21 @@
+<<html>
+    <head>
+       <meta charset="utf-8">
+       <title>Ответы информантов</title>
+    </head>
+<body style="color:Lavender; background-color:#E6E6FA">
+<div align="center"><FONT COLOR=600040><code><h1> Все данные, введенные информантами </h1>
+    <ul>
+    {% for username in m %}
+        <p>{{ username }}</p>
+    {% endfor %}
+</ul>
+</br>
+<input type="button" value="Вернуться в главное меню" onClick='location.href="http://127.0.0.1:5000/"'>	
+
+</FONT>
+
+ </form>
+
+ </body>
+ </html>
